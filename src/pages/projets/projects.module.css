@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@keyframes backGroundLight {
+  0% {
+    box-shadow: 0.5px 0.5px rgba(17, 72, 136);
+  }
+  25% {
+    box-shadow: -0.5px -0.5px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0.5px 0.5px rgb(17, 72, 136);
+  }
+  75% {
+    box-shadow: -0.5px -0.5px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0.5px 0.5px rgba(17, 72, 136);
+  }
+}
+.section_Projects {
+  margin-top: 20%;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+}
+.project_p {
+  font-family: "Dancing Script";
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container_project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.design_project {
+  width: 10rem;
+  height: 13rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  animation: backGroundLight 10s infinite;
+  border-radius: 10px;
+  background: #00000079;
+}
+
+.design_project img {
+  width: 5.5em;
+  margin-top: 10px;
+  height: 6rem;
+  border-radius: 5px;
+}
+/* .design_project h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Cormorant Garamond", serif;
+} */
+.design_project p {
+  font-family: "Cormorant Garamond", serif;
+}
+.design_project a {
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  padding: 2px 10px 2px 10px;
+  border: solid 1px rgb(255, 255, 255);
+  transition: 1s;
+}
+.design_project a:hover {
+  transition: 1s;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .section_Projects {
+    margin-top: 5%;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+  .project_p {
+    font-size: 3rem;
+  }
+  .design_project {
+    width: 15rem;
+    height: 17rem;
+    transition: 1s;
+    background-color: none;
+    animation: none;
+  }
+  .container_project {
+    justify-content: space-evenly;
+  }
+  .description_text {
+    font-size: 1.2rem;
+  }
+  .design_project a {
+    font-size: 1.2rem;
+  }
+  .design_project img {
+    width: 8rem;
+    height: 8.5rem;
+  }
+}

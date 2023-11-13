@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+
+.article_presentation {
+  margin-top: 30%;
+}
+.pic_portrait {
+  width: 12rem;
+  margin-bottom: 1rem;
+  height: 12rem;
+  border-radius: 10px;
+  justify-content: center;
+}
+.top_presentation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+}
+.para_presentation {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 0.5rem 0 0.5rem;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+}
+.section_presentation {
+  width: 80%;
+  font-size: 1.2rem;
+  margin: auto;
+  align-items: center;
+}
+@media screen and (min-width: 900px) {
+  .article_presentation {
+    margin-top: 5%;
+  }
+  .pic_portrait {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+  }
+  .top_presentation {
+    flex-direction: row;
+  }
+  .para_presentation {
+    font-size: 2rem;
+    width: 55%;
+    font-weight: bold;
+  }
+  .section_presentation {
+    font-size: 2rem;
+  }
+  p {
+    margin-top: 0;
+  }
+}
