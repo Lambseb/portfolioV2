@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
 
 .article_presentation {
-  margin-top: 30%;
+  margin-top: 20%;
 }
 .pic_portrait {
   width: 12rem;
@@ -22,12 +22,17 @@
   align-items: center;
 }
 .logo_img {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 p {
   color: white;
   font-family: "Cormorant Garamond", serif;
+}
+.skill_text {
+  text-align: center;
+  text-decoration: overline;
+  margin-bottom: 0.5rem;
 }
 .para_presentation {
   text-align: center;
@@ -60,7 +65,15 @@ p {
   .logo_div p {
     margin: 0;
   }
+  .skill_text {
+    text-align: center;
+    margin: 0;
+    text-decoration: overline;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+  }
   .logo_img {
+    margin-left: 0.5rem;
     width: 50px;
     height: 50px;
   }

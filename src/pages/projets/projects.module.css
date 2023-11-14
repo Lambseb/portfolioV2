@@ -91,7 +91,7 @@ h3 {
     width: 15rem;
     height: 17rem;
     transition: 1s;
-    background-color: none;
+    background-color: #ffffff00;
     animation: none;
   }
   .container_project {

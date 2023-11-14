@@ -25,8 +25,8 @@ function Presentation() {
         transition={{ duration: 3 }}
         className={styles.section_presentation}
       >
+        <p className={styles.skill_text}>COMPETENCES</p>
         <div className={styles.logo_div}>
-          <p>COMPETENCES: </p>
           <img
             className={styles.logo_img}
             src="/src/assets/logo-js.png"
