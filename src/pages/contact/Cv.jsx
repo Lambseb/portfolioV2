@@ -1,4 +1,4 @@
-import styles from "./Cv.module.css";
+import styles from "./cv.module.css";
 import { motion } from "framer-motion";
 function Cv() {
   return (
@@ -36,7 +36,7 @@ function Cv() {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1.5 }}
           >
-            <p className={styles.para_cv}>Mon CV développeur web</p>
+            <p className={styles.para_cv}>CV développeur web</p>
             <a
               className={styles.mailto}
               href="https://www.dropbox.com/scl/fi/27wn8j5dllywuq04r1o07/CV_Sebastien_Lambranca_Alternance.pdf?rlkey=z5vbgxq61gkjtviqiqu8b9puk&dl=0"

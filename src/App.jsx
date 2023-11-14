@@ -1,4 +1,4 @@
-import styles from "./App.module.css";
+import styles from "./app.module.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { Outlet } from "react-router-dom";
@@ -6,7 +6,6 @@ import { loadFull } from "tsparticles";
 import Particles from "react-particles";
 function App() {
   const particlesInit = async (main) => {
-    console.log(main);
     await loadFull(main);
   };
   return (
@@ -20,10 +19,12 @@ function App() {
             color: {
               value: "#fffff",
             },
-            image: "url('/src/assets/pexels-background.jpg')",
-            position: "",
-            repeat: "cover",
+            image: "url('/src/assets/stars.jpg')",
+            position: "center",
+            repeat: "no-repeat",
             size: "100%",
+            width: "100%",
+            height: "100%",
             opacity: 1,
           },
           backgroundMask: {

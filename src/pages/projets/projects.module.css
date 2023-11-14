@@ -23,12 +23,12 @@
 h3 {
   color: white;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.8Crem;
   margin: 0;
   font-family: "Cormorant Garamond", serif;
 }
 .project_p {
-  font-family: "Dancing Script";
+  font-family: "Cormorant Garamond", serif;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -57,12 +57,6 @@ h3 {
   height: 6rem;
   border-radius: 5px;
 }
-/* .design_project h3 {
-  font-size: 1rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: "Cormorant Garamond", serif;
-} */
 .design_project p {
   font-family: "Cormorant Garamond", serif;
 }
@@ -91,7 +85,7 @@ h3 {
     font-size: 3.5rem;
   }
   .project_p {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
   .design_project {
     width: 15rem;

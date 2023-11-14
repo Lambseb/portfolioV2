@@ -32,12 +32,10 @@ function Presentation() {
           Développeur full-stack, je suis maintenant en route pour monter en
           compétences et devenir le moteur de ma réussite !
         </p>
+        <p>COMPETENCES TECHNIQUE:</p>
         <p>
-          Pratiquant le tir sportif, j’ai comme loisir principal le jeux vidéo
-          avec une forte appétence pour compétitif, j’adore me tenir informé des
-          derniers technologie et innovation dans le domaine hardware et
-          software. Pratiquant le fitness je me suis aussi initié au Jujitsu
-          brésilen.
+          Formation développement web full-stack: Javascript React.js Node.js
+          Express.js MySQL Git/GitHub HTML CSS
         </p>
       </motion.section>
     </article>

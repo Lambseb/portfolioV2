@@ -1,5 +1,5 @@
-import styles from "./Projects.module.css";
-
+import styles from "./projects.module.css";
+import PropTypes from "prop-types";
 function CreateProject({ name, description, link, picture }) {
   return (
     <div className={styles.design_project}>
@@ -11,5 +11,10 @@ function CreateProject({ name, description, link, picture }) {
     </div>
   );
 }
-
+CreateProject.propTypes = {
+  name: PropTypes.string,
+  description: PropTypes.string,
+  link: PropTypes.string,
+  picture: PropTypes.string,
+};
 export default CreateProject;
