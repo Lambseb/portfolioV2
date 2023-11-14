@@ -1,4 +1,4 @@
-import styles from "./SectionHome.module.css";
+import styles from "./sectionHome.module.css";
 import { motion } from "framer-motion";
 function SectionHome() {
   return (
