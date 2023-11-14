@@ -16,6 +16,15 @@
   flex-direction: column;
   align-items: center;
 }
+.logo_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_img {
+  width: 25px;
+  height: 25px;
+}
 p {
   color: white;
   font-family: "Cormorant Garamond", serif;
@@ -41,7 +50,19 @@ p {
     width: 20rem;
     height: 20rem;
     margin-left: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+  }
+  .logo_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_div p {
+    margin: 0;
+  }
+  .logo_img {
+    width: 50px;
+    height: 50px;
   }
   .top_presentation {
     flex-direction: row;
@@ -55,6 +76,6 @@ p {
     font-size: 2rem;
   }
   p {
-    margin-top: 0;
+    margin-top: 1.5rem;
   }
 }

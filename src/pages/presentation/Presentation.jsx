@@ -25,17 +25,50 @@ function Presentation() {
         transition={{ duration: 3 }}
         className={styles.section_presentation}
       >
+        <div className={styles.logo_div}>
+          <p>COMPETENCES: </p>
+          <img
+            className={styles.logo_img}
+            src="/src/assets/logo-js.png"
+            alt="logo js"
+          />
+          <img
+            className={styles.logo_img}
+            src="/src/assets/logo-react.png"
+            alt="logo react"
+          />
+          <img
+            className={styles.logo_img}
+            src="/src/assets/logo-node.png"
+            alt="logo node"
+          />
+          <img
+            className={styles.logo_img}
+            src="/src/assets/logo-mysql.png"
+            alt="logo mysql"
+          />
+          <img
+            className={styles.logo_img}
+            src="/src/assets/logo-git.png"
+            alt="logo git"
+          />
+          <img
+            className={styles.logo_img}
+            src="/src/assets/logo-html.png"
+            alt="logo html"
+          />
+          <img
+            className={styles.logo_img}
+            src="/src/assets/logo-css.png"
+            alt="logo css"
+          />
+        </div>
         <p>
           J’ai commencé mon apprentissage du développement fin 2022 avec les
           bases du front-end (HTML, CSS, Javascript), j’ai ensuite rejoins le
           cursus de la WildCodeSchool en Septembre 2023 pour une formation
           Développeur full-stack, je suis maintenant en route pour monter en
           compétences et devenir le moteur de ma réussite !
-        </p>
-        <p>COMPETENCES TECHNIQUE:</p>
-        <p>
-          Formation développement web full-stack: Javascript React.js Node.js
-          Express.js MySQL Git/GitHub HTML CSS
         </p>
       </motion.section>
     </article>
