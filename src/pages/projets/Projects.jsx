@@ -1,4 +1,4 @@
-import styles from "./Projects.module.css";
+import styles from "./projects.module.css";
 import projects from "/src/data/projects.json";
 import CreateProject from "./CreateProject";
 import { motion } from "framer-motion";
