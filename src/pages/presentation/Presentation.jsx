@@ -1,5 +1,13 @@
 import styles from "./presentation.module.css";
 import { motion } from "framer-motion";
+import logoJs from "/src/assets/logo-js.png";
+import logoReact from "/src/assets/logo-react.png";
+import logoNode from "/src/assets/logo-node.png";
+import logoSql from "/src/assets/logo-mysql.png";
+import logoGit from "/src/assets/logo-git.png";
+import logoHtml from "/src/assets/logo-html.png";
+import logoCss from "/src/assets/logo-css.png";
+
 function Presentation() {
   return (
     <article className={styles.article_presentation}>
@@ -27,41 +35,13 @@ function Presentation() {
       >
         <p className={styles.skill_text}>COMPETENCES</p>
         <div className={styles.logo_div}>
-          <img
-            className={styles.logo_img}
-            src="/src/assets/logo-js.png"
-            alt="logo js"
-          />
-          <img
-            className={styles.logo_img}
-            src="/src/assets/logo-react.png"
-            alt="logo react"
-          />
-          <img
-            className={styles.logo_img}
-            src="/src/assets/logo-node.png"
-            alt="logo node"
-          />
-          <img
-            className={styles.logo_img}
-            src="/src/assets/logo-mysql.png"
-            alt="logo mysql"
-          />
-          <img
-            className={styles.logo_img}
-            src="/src/assets/logo-git.png"
-            alt="logo git"
-          />
-          <img
-            className={styles.logo_img}
-            src="/src/assets/logo-html.png"
-            alt="logo html"
-          />
-          <img
-            className={styles.logo_img}
-            src="/src/assets/logo-css.png"
-            alt="logo css"
-          />
+          <img className={styles.logo_img} src={logoJs} alt="logo js" />
+          <img className={styles.logo_img} src={logoReact} alt="logo react" />
+          <img className={styles.logo_img} src={logoNode} alt="logo node" />
+          <img className={styles.logo_img} src={logoSql} alt="logo mysql" />
+          <img className={styles.logo_img} src={logoGit} alt="logo git" />
+          <img className={styles.logo_img} src={logoHtml} alt="logo html" />
+          <img className={styles.logo_img} src={logoCss} alt="logo css" />
         </div>
         <p>
           J’ai commencé mon apprentissage du développement fin 2022 avec les

@@ -4,6 +4,7 @@ import Footer from "./components/footer/Footer";
 import { Outlet } from "react-router-dom";
 import { loadFull } from "tsparticles";
 import Particles from "react-particles";
+import imgBackground from "./assets/stars.jpg";
 function App() {
   const particlesInit = async (main) => {
     await loadFull(main);
@@ -19,12 +20,12 @@ function App() {
             color: {
               value: "#fffff",
             },
-            image: "url('/src/assets/stars.jpg')",
-            position: "center",
-            repeat: "no-repeat",
+            image: `url(${imgBackground})`,
+            position: "",
+            repeat: "cover",
             size: "100%",
-            width: "100%",
-            height: "100%",
+            width: "100vw",
+            height: "100vh",
             opacity: 1,
           },
           backgroundMask: {
