@@ -46,9 +46,9 @@ function Presentation() {
         </div>
         <p className={styles.pres_text}>
           J’ai commencé mon apprentissage du développement fin 2022 avec les
-          bases du front-end (HTML, CSS, Javascript), j’ai ensuite rejoins le
-          cursus de la WildCodeSchool en Septembre 2023 pour une formation
-          Développeur full-stack, je suis maintenant en route pour monter en
+          bases du front-end (HTML, CSS, Javascript), j’ai ensuite rejoint le
+          cursus de la WildCodeSchool en septembre 2023 pour une formation
+          développeur full-stack, je suis maintenant en route pour monter en
           compétences et devenir le moteur de ma réussite !
         </p>
       </motion.section>
