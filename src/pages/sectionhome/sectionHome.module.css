@@ -38,8 +38,11 @@
   .section_home {
     margin-top: 10%;
   }
+  .title_job {
+    font-size: 3.5rem;
+  }
   .title_name {
-    font-size: 6rem;
+    font-size: 5rem;
     margin-bottom: 0;
   }
 }

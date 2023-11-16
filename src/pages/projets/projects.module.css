@@ -55,7 +55,7 @@ h3 {
   width: 5.5em;
   margin-top: 10px;
   height: 6rem;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .design_project p {
   font-family: "Cormorant Garamond", serif;
@@ -81,8 +81,8 @@ h3 {
   .section_Projects {
     margin-top: 5%;
   }
-  h3 {
-    font-size: 3.5rem;
+  .section_Projects h3 {
+    font-size: 3rem;
   }
   .project_p {
     font-size: 1.8rem;

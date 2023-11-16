@@ -11,7 +11,7 @@ function Cv() {
           </p>
         </div>
 
-        <a className={styles.phone_cv} href="href=tel:+33645654920">
+        <a className={styles.phone_cv} href="tel:+33645654920">
           06.<span className={styles.hidden}>dfsdfsdfdsf</span>45.65.49.20
         </a>
         <p className={styles.para_cv}>51800 Sainte-Ménehould</p>

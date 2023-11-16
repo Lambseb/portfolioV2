@@ -43,7 +43,7 @@ function Presentation() {
           <img className={styles.logo_img} src={logoHtml} alt="logo html" />
           <img className={styles.logo_img} src={logoCss} alt="logo css" />
         </div>
-        <p>
+        <p className={styles.pres_text}>
           J’ai commencé mon apprentissage du développement fin 2022 avec les
           bases du front-end (HTML, CSS, Javascript), j’ai ensuite rejoins le
           cursus de la WildCodeSchool en Septembre 2023 pour une formation
