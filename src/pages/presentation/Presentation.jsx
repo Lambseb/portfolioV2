@@ -7,6 +7,7 @@ import logoSql from "/src/assets/logo-mysql.png";
 import logoGit from "/src/assets/logo-git.png";
 import logoHtml from "/src/assets/logo-html.png";
 import logoCss from "/src/assets/logo-css.png";
+import portrait from "/src/assets/portrait.jpg";
 
 function Presentation() {
   return (
@@ -19,7 +20,7 @@ function Presentation() {
       >
         <img
           className={styles.pic_portrait}
-          src="/src/assets/portrait.jpg"
+          src={portrait}
           alt="photo de profil de Sébastien LAMBRANCA"
         />
         <p className={styles.para_presentation}>
