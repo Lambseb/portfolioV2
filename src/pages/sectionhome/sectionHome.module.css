@@ -12,9 +12,9 @@
   color: white;
 }
 .title_name {
-  font-family: "Dancing Script";
-  font-size: 3.5rem;
-  margin-bottom: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 .pic_git {
   width: 3rem;
@@ -26,17 +26,49 @@
 }
 .title_job {
   margin-top: 0.5rem;
-  font-family: "Dancing Script";
-  font-size: 2.6rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
 }
+.btn {
+  width: 140px;
+  height: 45px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+  color: black;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  padding: 1rem;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 8px rgb(5, 181, 240);
+  z-index: 1;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: -1;
+  transition: all 0.4s;
+  border-radius: 10px;
+}
+
 .welcomer {
   margin-top: 4rem;
   font-family: "Cormorant Garamond", serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 @media screen and (min-width: 900px) {
   .section_home {
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .title_job {
     font-size: 3.5rem;
@@ -44,5 +76,56 @@
   .title_name {
     font-size: 5rem;
     margin-bottom: 0;
+  }
+  .btn {
+    width: 140px;
+    height: 45px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+    color: white;
+    box-shadow: 0.5px 0.5px 6px rgb(6, 87, 114);
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    padding: 1rem;
+    position: relative;
+    transition: all 0.4s;
+    z-index: 1;
+  }
+
+  .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: -1;
+    transition: all 0.4s;
+    border-radius: 10px;
+  }
+
+  .btn:hover::before {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 8px rgb(5, 181, 240);
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .btn:active:before {
+    background: #b9b9b9;
+  }
+}
+@media screen and (max-width: 380px) {
+  .section_home {
+    margin-top: 10%;
   }
 }

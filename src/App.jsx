@@ -18,13 +18,13 @@ function App() {
           autoPlay: true,
           background: {
             color: {
-              value: "#fffff",
+              value: "rgb(19,19,19)",
             },
-            image: `url(${imgBackground})`,
+            // image: `url(${imgBackground})`,
             position: "",
             repeat: "cover",
             size: "100%",
-            width: "100vw",
+            minwidth: "100vw",
             height: "100vh",
             opacity: 1,
           },
@@ -92,7 +92,7 @@ function App() {
                 distance: 200,
               },
               bubble: {
-                distance: 250,
+                distance: 300,
                 duration: 2,
                 mix: false,
                 opacity: 0,
@@ -365,7 +365,7 @@ function App() {
             size: {
               random: {
                 enable: true,
-                minimumValue: 1,
+                minimumValue: 0.2,
               },
               value: {
                 min: 1,
@@ -381,7 +381,7 @@ function App() {
                 mode: "auto",
                 startValue: "random",
                 destroy: "none",
-                minimumValue: 0.3,
+                minimumValue: 0.1,
               },
             },
             stroke: {
@@ -405,7 +405,7 @@ function App() {
                 factor: {
                   random: {
                     enable: false,
-                    minimumValue: 0,
+                    minimumValue: 0.01,
                   },
                   value: 3,
                 },
@@ -476,7 +476,7 @@ function App() {
               delay: {
                 random: {
                   enable: false,
-                  minimumValue: 0,
+                  minimumValue: 0.1,
                 },
                 value: 0,
                 sync: false,

@@ -4,7 +4,7 @@ function CreateProject({ name, description, link, picture }) {
   return (
     <div className={styles.design_project}>
       <img src={picture} alt={description} />
-      <p className={styles.description_text}>{description}</p>
+      <p className={styles.description_text}>{name}</p>
       <a href={link} target="_blank" rel="noreferrer">
         {typeof link == "string" ? "VOIR LE PROJET" : "EN COURS"}
       </a>

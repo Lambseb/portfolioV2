@@ -1,5 +1,6 @@
-import styles from "./sectionHome.module.css";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
+import styles from "./sectionHome.module.css";
 function SectionHome() {
   return (
     <section className={styles.section_home}>
@@ -7,7 +8,7 @@ function SectionHome() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 4 }}
+          transition={{ duration: 3 }}
           className={styles.title_name}
         >
           Sébastien Lambranca
@@ -15,26 +16,14 @@ function SectionHome() {
         <motion.p
           initial={{ y: -200, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 1 }}
           className={styles.title_job}
         >
           Développeur front-end
         </motion.p>
-        <a href="https://github.com/Lambseb/" target="_blank" rel="noreferrer">
-          <img className={styles.pic_git} src="/src/assets/github.png" alt="" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/s%C3%A9bastien-lambranca-46ab7025a/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className={styles.pic_link}
-            src="/src/assets/linkedin.png"
-            alt=""
-            target="_blank"
-          />
-        </a>
+        <NavLink className={styles.btn} to="/Cv">
+          CONTACT
+        </NavLink>
         <p className={styles.welcomer}>
           Bienvenue sur mon portfolio, vous y trouverez mes projets ainsi que
           mes compétences. Bonne visite !

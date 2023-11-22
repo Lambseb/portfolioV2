@@ -5,7 +5,7 @@ function Header() {
   return (
     <footer className={styles.title}>
       <NavLink to="/" className={styles.link_btn}>
-        Home
+        Acceuil
       </NavLink>
       <NavLink to="/Presentation" className={styles.link_btn}>
         Présentation

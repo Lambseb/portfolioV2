@@ -10,11 +10,11 @@ function Cv() {
             <strong>DEVELOPPEUR FRONT-END</strong>
           </p>
         </div>
+        <p className={styles.para_cv}>Champagne-Ardenne, Meuse</p>
 
         <a className={styles.phone_cv} href="tel:+33645654920">
           06.<span className={styles.hidden}>dfsdfsdfdsf</span>45.65.49.20
         </a>
-        <p className={styles.para_cv}>51800 Sainte-Ménehould</p>
 
         <div className={styles.div_link}>
           <motion.div
@@ -29,6 +29,30 @@ function Cv() {
             </p>
             <a className={styles.mailto} href="mailto:lambranca.s@gmail.com">
               CONTACTEZ MOI
+            </a>
+          </motion.div>
+          <motion.div
+            initial={{ x: 0, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 2 }}
+            className={styles.social_div}
+          >
+            <p className={styles.para_cv}>Réseau pro</p>
+            <a
+              className={styles.mailto}
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/s%C3%A9bastien-lambranca-46ab7025a/"
+            >
+              LINKEDIN
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className={styles.mailto}
+              href="https://github.com/Lambseb"
+            >
+              GITHUB
             </a>
           </motion.div>
           <motion.div

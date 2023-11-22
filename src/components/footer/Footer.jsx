@@ -3,10 +3,12 @@ import styles from "./footer.module.css";
 import { NavLink } from "react-router-dom";
 
 function Header() {
+  // const divClass = "link_btn:hover";
+  // const HandleClick = () => {};
   return (
     <footer className={styles.title}>
       <NavLink to="/" className={styles.link_btn}>
-        Home
+        Acceuil
       </NavLink>
       <NavLink to="/Presentation" className={styles.link_btn}>
         Présentation

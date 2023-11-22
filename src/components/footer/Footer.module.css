@@ -15,13 +15,14 @@ html {
   justify-content: space-evenly;
   color: white;
   font-size: 1rem;
-  gap: 2px;
+  gap: 0px;
   font-family: "Cormorant Garamond", serif;
   margin-bottom: 1rem;
   width: 100%;
 }
 .link_btn {
   margin: auto;
+  background-color: rgba(0, 0, 0, 0.39);
   text-decoration: none;
   color: white;
   padding: 1.1rem 0.9rem 1.1rem 0.9rem;
@@ -43,5 +44,13 @@ html {
 @media screen and (min-width: 900px) {
   .title {
     display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .title {
+    gap: 0px;
+  }
+  .link_btn {
+    padding: 1rem 0.8rem;
   }
 }

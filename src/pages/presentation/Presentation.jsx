@@ -25,7 +25,7 @@ function Presentation() {
         />
         <p className={styles.para_presentation}>
           Développeur web et passionné d’informatique depuis mes 15 ans je fais
-          aujourd’hui l’une de mes passions mon metier !
+          aujourd’hui l’une de mes passions mon métier !
         </p>
       </motion.div>
       <motion.section
