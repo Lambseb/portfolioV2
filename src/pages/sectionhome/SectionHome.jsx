@@ -19,7 +19,7 @@ function SectionHome() {
           transition={{ duration: 1 }}
           className={styles.title_job}
         >
-          Développeur front-end
+          Développeur web
         </motion.p>
         <NavLink className={styles.btn} to="/Cv">
           CONTACT

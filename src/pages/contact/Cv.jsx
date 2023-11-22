@@ -7,7 +7,7 @@ function Cv() {
         <div>
           <h3 className={styles.name_cv}>Sébastien LAMBRANCA</h3>
           <p className={styles.para_cv}>
-            <strong>DEVELOPPEUR FRONT-END</strong>
+            <strong>DÉVELOPPEUR WEB</strong>
           </p>
         </div>
         <p className={styles.para_cv}>Champagne-Ardenne, Meuse</p>
