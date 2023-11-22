@@ -1,5 +1,6 @@
 import styles from "./cv.module.css";
 import { motion } from "framer-motion";
+import CvSeb from "/public/LAMBRANCA_Sebastien_cv.pdf";
 function Cv() {
   return (
     <>
@@ -61,10 +62,7 @@ function Cv() {
             transition={{ duration: 1.5 }}
           >
             <p className={styles.para_cv}>CV développeur web</p>
-            <a
-              className={styles.mailto}
-              href="https://www.dropbox.com/scl/fi/27wn8j5dllywuq04r1o07/CV_Sebastien_Lambranca_Alternance.pdf?rlkey=z5vbgxq61gkjtviqiqu8b9puk&dl=0"
-            >
+            <a className={styles.mailto} href={CvSeb} download>
               TELECHARGER ICI
             </a>
           </motion.div>

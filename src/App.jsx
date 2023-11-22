@@ -4,7 +4,6 @@ import Footer from "./components/footer/Footer";
 import { Outlet } from "react-router-dom";
 import { loadFull } from "tsparticles";
 import Particles from "react-particles";
-import imgBackground from "./assets/stars.jpg";
 function App() {
   const particlesInit = async (main) => {
     await loadFull(main);
