@@ -25,7 +25,7 @@ function Presentation() {
         />
         <p className={styles.para_presentation}>
           Développeur web et passionné d’informatique depuis mes 15 ans je fais
-          aujourd’hui l’une de mes passions mon métier !
+          aujourd’hui de l’une de mes passions mon métier ! <br />
         </p>
       </motion.div>
       <motion.section
@@ -34,6 +34,7 @@ function Presentation() {
         transition={{ duration: 3 }}
         className={styles.section_presentation}
       >
+        <p className={styles.skill_seek}></p>
         <p className={styles.skill_text}>COMPETENCES</p>
         <div className={styles.logo_div}>
           <img className={styles.logo_img} src={logoJs} alt="logo js" />
@@ -50,6 +51,7 @@ function Presentation() {
           cursus de la WildCodeSchool en septembre 2023 pour une formation
           développeur full-stack, je suis maintenant en route pour monter en
           compétences et devenir le moteur de ma réussite !
+          <em> Je recherche une alternance de développeur web</em>
         </p>
       </motion.section>
     </article>

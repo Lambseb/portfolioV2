@@ -26,7 +26,10 @@ function SectionHome() {
         </NavLink>
         <p className={styles.welcomer}>
           Bienvenue sur mon portfolio, vous y trouverez mes projets ainsi que
-          mes compétences. Bonne visite !
+          mes compétences. Bonne visite ! <br />
+          <em>
+            <strong> Je recherche une alternance de développeur web </strong>
+          </em>
         </p>
       </div>
     </section>
