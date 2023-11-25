@@ -1,7 +1,8 @@
 # Portfolio de LAMBRANCA Sébastien
 
-Bienvenue sur mon portfolio personnel, où je partage mes projets et mes compétences en développement web. N'hésitez pas à explorer et à me contacter si vous avez des questions ou des opportunités de collaboration.
-
+Bienvenue sur mon portfolio personnel, où je partage mes projets et mes compétences en développement web. N'hésitez pas à explorer et à me contacter si vous avez des questions ou des opportunités de collaboration.<br>
+[Visiter le site](portfolio-v2-lambseb.vercel.app)
+  
 ## Technologies utilisées
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
