@@ -1,4 +1,4 @@
-# Mon Portfolio
+# Portfolio de LAMBRANCA Sébastien
 
 Bienvenue sur mon portfolio personnel, où je partage mes projets et mes compétences en développement web. N'hésitez pas à explorer et à me contacter si vous avez des questions ou des opportunités de collaboration.
 
