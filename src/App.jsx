@@ -4,7 +4,9 @@ import Footer from "./components/footer/Footer";
 import { Outlet } from "react-router-dom";
 import { loadFull } from "tsparticles";
 import Particles from "react-particles";
+import { useTheme } from "./contexts/ThemeContext";
 function App() {
+  const { theme, setTheme } = useTheme();
   const particlesInit = async (main) => {
     await loadFull(main);
   };
@@ -577,6 +579,7 @@ function App() {
           },
         }}
       />
+
       <nav className={styles.main_page}>
         <Header />
       </nav>

@@ -6,6 +6,7 @@ import SectionHome from "./pages/sectionhome/SectionHome.jsx";
 import Projects from "./pages/projets/Projects.jsx";
 import Cv from "./pages/contact/Cv.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { ThemeContext } from "./contexts/ThemeContext";
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -30,5 +31,7 @@ const router = createBrowserRouter([
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <ThemeContext>
+    <RouterProvider router={router} />
+  </ThemeContext>
 );

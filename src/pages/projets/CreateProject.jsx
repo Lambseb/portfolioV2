@@ -1,9 +1,10 @@
 import styles from "./projects.module.css";
 import PropTypes from "prop-types";
+
 function CreateProject({ name, description, link, picture }) {
   return (
     <div className={styles.design_project}>
-      <img src={picture} alt={description} />
+      <img src={picture} alt={description} title={description} />
       <p className={styles.description_text}>{name}</p>
       <a href={link} target="_blank" rel="noreferrer">
         {typeof link == "string" ? "VOIR LE PROJET" : "EN COURS"}
