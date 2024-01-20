@@ -17,6 +17,14 @@
   },
   {
     "id": 3,
+    "name": "L'Oréal Hackathon 2024 #Finaliste",
+    "description": "Projet Hackathon Final",
+    "technology": "REACT CSS, Express, CHATGPT",
+    "link": "https://b2b-loreal.remote-fr-2.wilders.dev/",
+    "picture": "https://b2b-loreal.remote-fr-2.wilders.dev/assets/svg/favicon.svg"
+  },
+  {
+    "id": 4,
     "name": "Portfolio V1",
     "description": "Portfolio entrée de formation",
     "technology": "HTML, CSS, JavaScript",
@@ -24,7 +32,7 @@
     "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699736951-capture-d-ecran-2023-11-11-220834.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Générateur de post-it ",
     "description": "post-it project 1  WCS",
     "technology": "HTML, CSS, JavaScript",
@@ -32,7 +40,7 @@
     "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699726138-maestro-task.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "front-end shop",
     "description": "Projet WCS array hook  Halloween",
     "technology": "REACT CSS",
