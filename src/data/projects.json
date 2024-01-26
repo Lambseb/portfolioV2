@@ -17,11 +17,11 @@
   },
   {
     "id": 3,
-    "name": "L'Oréal Hackathon 2024 #Finaliste",
+    "name": "#Finaliste Hackathon l'Oréal",
     "description": "Projet Hackathon Final",
     "technology": "REACT CSS, Express, CHATGPT",
-    "link": "https://b2b-loreal.remote-fr-2.wilders.dev/",
-    "picture": "https://b2b-loreal.remote-fr-2.wilders.dev/assets/svg/favicon.svg"
+    "link": null,
+    "picture": "https://www.sodipar.com/wp-content/uploads/sites/5535/2018/11/image1_500_10000.jpg"
   },
   {
     "id": 4,
@@ -46,5 +46,13 @@
     "technology": "REACT CSS",
     "link": "https://weekly-amber-iota.vercel.app/",
     "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699726208-hallowshop.png"
+  },
+  {
+    "id": 7,
+    "name": "MAPPING ART",
+    "description": "Mapping ART Project 3 WCS",
+    "technology": "REACT, Express, tailwind",
+    "link": "https://weekly-amber-iota.vercel.app/",
+    "picture": "https://image.noelshack.com/fichiers/2024/04/5/1706263583-capture-d-ecran-2024-01-26-110545.png"
   }
 ]
