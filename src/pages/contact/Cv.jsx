@@ -1,6 +1,6 @@
 import styles from "./cv.module.css";
 import { motion } from "framer-motion";
-import CvSeb from "/public/LAMBRANCA-Sebastien_CV.pdf";
+import CvSeb from "/public/LAMBRANCA_Sebastien.pdf";
 function Cv() {
   return (
     <>
