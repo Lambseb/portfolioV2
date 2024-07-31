@@ -4,9 +4,9 @@
   margin-top: 15%;
 }
 .pic_portrait {
-  width: 6rem;
+  width: 8rem;
   margin-bottom: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
   height: 8rem;
   justify-content: center;
 }
@@ -57,11 +57,11 @@ p {
     margin-top: 5%;
   }
   .pic_portrait {
-    width: 15rem;
+    width: 18rem;
     height: 15rem;
     margin-left: 1rem;
     margin-bottom: 1.2rem;
-    border-radius: 10px;
+    border-radius: 12px;
   }
   .logo_div {
     display: flex;
