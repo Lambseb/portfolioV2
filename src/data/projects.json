@@ -20,11 +20,27 @@
     "name": "#Finaliste Hackathon l'Oréal",
     "description": "Projet Hackathon Final",
     "technology": "REACT CSS, Express, CHATGPT",
-    "link": null,
+    "link": "",
     "picture": "https://www.sodipar.com/wp-content/uploads/sites/5535/2018/11/image1_500_10000.jpg"
   },
   {
     "id": 4,
+    "name": "Docteur Steve Touitou",
+    "description": "Site vitrine Free-lancing",
+    "technology": "Wordpress, OVH, gutenberg",
+    "link": "docteurstevetouitou.fr",
+    "picture": "https://docteurstevetouitou.fr/wp-content/uploads/2024/07/logoSteve.psd.png"
+  },
+  {
+    "id": 5,
+    "name": "SCNA-Derval",
+    "description": "Club de football SCNA-Derval projet pro bénévole",
+    "technology": "Next.js, Prisma.db, Tailwind",
+    "link": "https://scna-derval.fr/",
+    "picture": "https://scna-derval.fr/_next/image?url=%2Flogo_scna.png&w=256&q=75"
+  },
+  {
+    "id": 6,
     "name": "Portfolio V1",
     "description": "Portfolio entrée de formation",
     "technology": "HTML, CSS, JavaScript",
@@ -32,15 +48,7 @@
     "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699736951-capture-d-ecran-2023-11-11-220834.png"
   },
   {
-    "id": 5,
-    "name": "Générateur de post-it ",
-    "description": "post-it project 1  WCS",
-    "technology": "HTML, CSS, JavaScript",
-    "link": "https://youns28100.github.io/MAESTRO-TASK/index.html",
-    "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699726138-maestro-task.png"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "name": "front-end shop",
     "description": "Projet WCS array hook  Halloween",
     "technology": "REACT CSS",
@@ -48,7 +56,7 @@
     "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699726208-hallowshop.png"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "MAPPING ART",
     "description": "Mapping ART Project 3 WCS",
     "technology": "REACT, Express, tailwind",

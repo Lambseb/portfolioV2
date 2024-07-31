@@ -8,6 +8,8 @@ import logoGit from "/src/assets/logo-git.png";
 import logoHtml from "/src/assets/logo-html.png";
 import logoCss from "/src/assets/logo-css.png";
 import portrait from "/src/assets/portrait.jpg";
+import nextJS from "/src/assets/next.js.png";
+import prisma from "/src/assets/prisma.png";
 
 function Presentation() {
   return (
@@ -38,8 +40,15 @@ function Presentation() {
         <p className={styles.skill_text}>COMPETENCES</p>
         <div className={styles.logo_div}>
           <img className={styles.logo_img} src={logoJs} alt="logo js" />
+          <img
+            style={{ backgroundColor: "white" }}
+            className={styles.logo_img}
+            src={nextJS}
+            alt="logo next.js"
+          />
           <img className={styles.logo_img} src={logoReact} alt="logo react" />
           <img className={styles.logo_img} src={logoNode} alt="logo node" />
+          <img className={styles.logo_img} src={prisma} alt="logo prisma.db" />
           <img className={styles.logo_img} src={logoSql} alt="logo mysql" />
           <img className={styles.logo_img} src={logoGit} alt="logo git" />
           <img className={styles.logo_img} src={logoHtml} alt="logo html" />
