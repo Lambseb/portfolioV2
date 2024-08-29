@@ -85,6 +85,7 @@ h3 {
 @media screen and (min-width: 900px) {
   .section_Projects {
     margin-top: 5%;
+    margin-bottom: 100px;
   }
   .section_Projects h3 {
     font-size: 3rem;

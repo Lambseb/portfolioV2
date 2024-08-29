@@ -12,8 +12,8 @@ function Projects() {
       >
         <h3>Mes Projets</h3>
         <p className={styles.project_p}>
-          Si l'on veut obtenir quelque chose que l'on n'a jamais eu, il faut
-          tenter quelque chose que l'on n'a jamais fait.
+          Si l&apos;on veut obtenir quelque chose que l&apos;on n&apos;a jamais eu, il faut
+          tenter quelque chose que l&apos;on n&apos;a jamais fait.
         </p>
         <p className={styles.project_p}>Périclès.</p>
       </motion.article>
