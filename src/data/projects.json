@@ -9,6 +9,13 @@
   },
   {
     "id": 2,
+    "name": "Lam'digital",
+    "description": "Site web Freelance Lam'digital",
+    "technology": "Next.js, Tailwind.css, CSS",
+    "link": "https://lam-digital.fr/",
+    "picture": "https://lh3.googleusercontent.com/p/AF1QipM6u71xBE94gSDRxyYRCnE4iHBVEzLJW3JZ5Kuy=s1360-w1360-h1020"
+  },{
+    "id": 3,
     "name": "Générateur d'e-carte",
     "description": "Générateur e-card Project 2",
     "technology": "REACT, CSS",
@@ -16,7 +23,7 @@
     "picture": "https://image.noelshack.com/fichiers/2023/47/2/1700598897-logopostify.png"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "#Finaliste Hackathon l'Oréal",
     "description": "Projet Hackathon Final",
     "technology": "REACT CSS, Express, CHATGPT",
@@ -24,15 +31,15 @@
     "picture": "https://www.sodipar.com/wp-content/uploads/sites/5535/2018/11/image1_500_10000.jpg"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Docteur Steve Touitou",
-    "description": "Site vitrine Free-lancing",
+    "description": "Site vitrine docteur Steve Touitou",
     "technology": "Wordpress, OVH, gutenberg",
     "link": "https://docteurstevetouitou.fr",
     "picture": "https://docteurstevetouitou.fr/wp-content/uploads/2024/07/logoSteve.psd.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "SCNA-Derval",
     "description": "Club de football SCNA-Derval projet pro bénévole",
     "technology": "Next.js, Prisma.db, Tailwind",
@@ -40,7 +47,7 @@
     "picture": "https://scna-derval.fr/_next/image?url=%2Flogo_scna.png&w=256&q=75"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Portfolio V1",
     "description": "Portfolio entrée de formation",
     "technology": "HTML, CSS, JavaScript",
@@ -48,7 +55,7 @@
     "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699736951-capture-d-ecran-2023-11-11-220834.png"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "front-end shop",
     "description": "Projet WCS array hook  Halloween",
     "technology": "REACT CSS",
@@ -56,7 +63,7 @@
     "picture": "https://image.noelshack.com/fichiers/2023/45/6/1699726208-hallowshop.png"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "MAPPING ART",
     "description": "Mapping ART Project 3 WCS",
     "technology": "REACT, Express, tailwind",
