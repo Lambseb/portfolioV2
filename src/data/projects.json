@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "XmassCook",
-    "description": "Clicker #1Place Hackathon",
-    "technology": "REACT, SCSS",
-    "link": "https://www.wildcodeschool.com/",
-    "picture": "https://xmass.click/svg/logo.svg"
-  },
-  {
     "id": 2,
     "name": "Lam'digital",
     "description": "Site web Freelance Lam'digital",
